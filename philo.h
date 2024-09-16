@@ -40,4 +40,6 @@ size_t	crrnt_time(void);
 void	waiting(t_info *tab, size_t ms);
 void	eating(t_philo *philo, t_info *tab);
 
+// valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all ./philo 5 400 200 200
+
 #endif
