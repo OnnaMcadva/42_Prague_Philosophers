@@ -23,7 +23,7 @@ int	ft_putendl_err(char *s)
 	ft_putstr_fd("\033[0;91mError. \033[0m", 2);
 	ft_putstr_fd(s, 2);
 	ft_putstr_fd("\n", 2);
-	exit(1);
+	pthread_exit(NULL);
 }
 
 int	ft_atoi_v(const char *str)
