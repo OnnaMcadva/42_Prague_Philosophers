@@ -26,6 +26,6 @@
 # define EAT "\033[38;5;227mis eating\033[0m"
 # define SLEEP "\033[38;5;206mis sleeping\033[0m"
 # define THINK "\033[38;5;051mis thinking\033[0m"
-# define DIED "\033[38;5;219mdied\033[0m"
+# define DIED "\033[38;5;219mdied\n\n ⬤ ▅▇█▇▆▅▄▄▄▇ \n\033[0m"
 
 #endif
